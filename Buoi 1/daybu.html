@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thuong LV  </title>
+    <style>
+        /* Commnet cua CSS  Code CSS below */
+        /* Cu phap style css */
+        /* 
+        tagname { 
+            attributes: value ; 
+        }
+        */
+        h1 {
+            text-align: center ;
+            color:#ccc;
+        }
+        /* Color 
+        2 loai
+        - RGB (Red, Green, Blue) 0 ->255
+        - Hex #FFFFFF
+        */
+        body {
+            background-color : rgb(51, 110, 168);
+        }
+        div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<!--  Giải thích nội dung trong body  -->
+Lê Văn THương   
+
+<!-- Giới thiệu các thẻ cơ bản  -->
+<!-- 
+    2 Loại thẻ cơ bản: 
+      - Thẻ tự đóng: <tagname  />
+      - Thẻ có thẻ đóng: 
+      <tagname> Content right here </tagname>
+
+ -->
+    <!-- Các thẻ có thẻ đóng cơ bản what why How -->
+    <!-- tagname h1:  -->
+    <h1> Heading 1   </h1>
+    <!-- tagname h2:  -->
+    <h2> Heading 2</h2>
+    <!-- tagname h3:  -->
+    <h3> Heading 3</h3>
+    <!-- end is .... h6 -->
+
+    <!-- tagname p: || p stand for paragraph -->
+    <p>   This is paragraph    </p>
+
+    <!--  Giới thiệu 1 số thẻ tự đóng  -->
+    <!-- Các thẻ tự đóng có những thuộc tính "attribute" 
+    src: stand for sources
+    -->
+    <!-- Cách 1 lấy ảnh từ các url  -->
+    <img src="https://afamilycdn.com/150157425591193600/2020/12/11/phim-hoat-hinh-doremon-1607677274161983039977.jpg"  /> 
+    <!-- Cách 2 Lấy ảnh từ trong máy
+    ./: tìm kiến cùng cấp với file hiện tại 
+
+    Bối cảnh 2: Cùng cấp với file hiện tại 
+    -->
+    <!-- <img src="./day_bu_b1_jsb30.jpeg"/> -->
+    <!-- Bối cảnh 2: Khác thư mục 
+    ../ nghĩa là đi ra ngoài 1 thư mục của folder  hiện tại 
+    -->
+    <!-- <img src="../Buoi 2/day_bu_b1_jsb30.jpeg" /> -->
+    <!-- Bối cảnh 3: Sai nguồn dẫn và cách khắc phục  -->
+    <img src="../Buoi 3/day_bu_b1_jsb30.jpeg"
+    alt="Anh nay khong len dc" />
+    <!-- div: stand for division 
+    Viet la 1 khoi:
+    px: stand for: pixel  
+    -->
+    <div> 
+        <img src="../Buoi 2/day_bu_b1_jsb30.jpeg"
+    alt="Anh nay khong len dc" width="100px" />
+    </div>
+</body>
+</html>

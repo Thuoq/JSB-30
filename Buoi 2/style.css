@@ -1,0 +1,17 @@
+h1 { 
+
+    color: red;
+}
+/* Cu phap de style 1 class */
+/* .ten_class  {
+
+    thuoc_tinh: value;
+}
+*/
+.text-h1 { 
+    color:blue;
+}
+/* Cu pha de style 1 id  */
+#p-1 { 
+    color: orange;
+}
