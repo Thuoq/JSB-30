@@ -1,0 +1,48 @@
+*{ 
+    box-sizing: border-box;
+}
+
+div{ 
+    background-color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* sytax gia tri cua margin padding 
+
+margin: top right bottom left 
+padding: 
+
+*/
+/* 
+border: width style color;
+
+style: solid , dash , dotted 
+
+*/
+.container {
+    height: 200px;
+    
+    color: white;
+    /* border: 10px dotted black; */
+    /* margin-bottom: 15px ; */
+    /* padding: 20px; */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); 
+}
+/*  
+ background-image: url 
+ background-repeat: repeat-x | repeat-y| no-repeat | repeat
+ background-size : % | contain|cover | auto 
+ background-position: x y | center
+ background-attachment: school*| fixed */
+.list-1 { 
+    display: inline;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+ 
+}
+.list-2 { 
+    display: inline;
+}

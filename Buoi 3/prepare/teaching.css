@@ -1,0 +1,20 @@
+/* 
+ background-color: color 
+ background-color: transparent
+ background-color: gradient
+*/
+/* 
+ background-image: url 
+ background-repeat: repeat-x | repeat-y| no-repeat | repeat
+ background-size : % | contain|cover | auto 
+ background-position: x y | center
+ background-attachment: school*| fixed
+*/
+
+.container { 
+    background-color: rgb(58, 166, 173);
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border: 1px solid blue;
+    
+}
