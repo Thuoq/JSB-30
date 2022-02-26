@@ -10,18 +10,37 @@ div{
 /* sytax gia tri cua margin padding 
 
 margin: top right bottom left 
-padding: 
+
+padding-left: *px | auto;
+padding-right:  *px | auto;
+padding-bottom:  *px | auto;
+padding-top:  *px | auto;
+
+#improve 
+padding: top right bottom left;
+padding: *px => ca 4 chieu = *px
+========
+margin-left: *px | auto;
+
+#improve 
+margin: top right bottom left;
+margin: *px => ca 4 chieu = *px
 
 */
 /* 
+border-style: dashed | solid | dotted;
+border-width: *px; 
+border-color: rgb | hex | red;
+
 border: width style color;
+border: 1px solid red;
 
 style: solid , dash , dotted 
 
 */
+
 .container {
     height: 200px;
-    
     color: white;
     /* border: 10px dotted black; */
     /* margin-bottom: 15px ; */
@@ -31,17 +50,16 @@ style: solid , dash , dotted
 }
 /*  
  background-image: url 
- background-repeat: repeat-x | repeat-y| no-repeat | repeat
+ background-repeat: repeat-x | repeat-y| no-repeat | ^repeat
  background-size : % | contain|cover | auto 
  background-position: x y | center
- background-attachment: school*| fixed */
+ background-attachment: scroll*| fixed */
 .list-1 { 
     display: inline;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
- 
 }
 .list-2 { 
     display: inline;
